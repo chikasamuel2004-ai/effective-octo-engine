@@ -1,0 +1,239 @@
+/*section1 starts here*/
+body{
+    font-size: x-large;
+    background-color:#362f3d;
+    color: white;
+}
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    border:2px solid black;
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    gap:30px;
+    color: white;
+    height: fit-content;
+    margin-top: 45px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+}
+.btn{
+    height:fit-content;
+    margin:30px;
+}
+.btn button{
+    width:200px;
+    height: 40px;
+    background-color: #fe607c;
+    border:none;
+    outline:none;
+    border-radius: 20px;
+    color:white;
+}
+.image{
+    width:50px;
+    height:60px;
+    margin:30px;
+}
+.image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+/*section 1 ends here*/
+/*section2 starts here*/
+.contact{
+    height:60vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(./IMG_20251029_002826.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    color: white;
+    text-decoration-color: white;
+    text-emphasis-color:  rgb(235, 215, 215);
+}
+/*section 3 starts here*/
+.form Ogechi {
+     border-right: none;
+     border-left: none;
+     border-top: none;
+     font-size: 4.5rem;
+}
+h2{
+    font-size: 3.5rem;
+    color: black;
+}
+input[type="text"]{
+    width: 3%;
+    height: 50px;
+}
+input[type="email"]{
+    width: 45%;
+    height:50px;
+    margin-left: 10px;
+}
+input[type="tel"]{
+    width: 80%;
+    height:30px;
+}
+.form input{
+    border: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: #2e2933;
+}
+.form textarea{
+    border: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: #2e2933;
+    width: 90%;
+
+}
+.collect{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    background-color: #2e2933;
+}
+.card{
+    margin-right: 20rem;
+    margin-top: 10rem;
+}
+/* .two{
+    width: 100%;
+    height: 100%;
+} */
+.two img{
+    width: 350px;
+    height: 400px;
+    border-radius: 50px;
+}
+.goal{
+    margin-left: 50px;
+}
+.but button{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #fe607c;
+}
+.Ronke{
+    display: flex;
+    width: 40%;
+    /* border: 2px solid white; */
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+   
+}
+.look,.and,.live,.support{
+    /* border: 2px solid yellow; */
+    /* width: 500px; */
+    padding: 70px ;
+    /* margin: 20px; */
+    
+    /* width: 500px; */
+    width: 500%;
+    gap: 80px;
+    justify-content: space-between;
+    margin: 30px;
+    padding-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.support{
+    /* margin-right:300px ; */
+    
+}
+.look{
+    margin-right: 70px; 
+    
+
+}
+.and{
+    /* margin-right: 300px; */
+    /* display: flex; */
+}
+.live{
+    /* margin-right: 100px; */
+}
+.footer{
+    background-color: #2e2933;
+}
+/* desktops */
+@media(max-width:700px){
+
+
+        body{
+            width: auto;
+            border: 2px solid white;
+        }
+        li{
+            display: none;
+        }
+        .collect{
+            display: block;
+            margin-right: 10px;
+        }
+        .form{
+            margin-right: 60px;
+        
+        }
+        .side{
+            display: flex;
+            width: 125%;
+        }
+        .two img{
+            margin-top: 15px;
+        }
+        .Ronke{
+            display: block;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .look,.and,.live,.support{
+            padding-left: 70px;
+            padding: 20px;
+            width: 150%;
+            /* margin-right: 30px; */
+    
+        }
+        .footer{
+            display: block;
+            width: 270px;
+            padding: 60px;
+        }
+     
+
+
+}
+/* Tablets */
+@media(max-width:1024px){
+
+}
