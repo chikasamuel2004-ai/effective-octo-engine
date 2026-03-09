@@ -129,8 +129,8 @@ input[type="tel"]{
     height: 100%;
 } */
 .two img{
-    width: 350px;
-    height: 400px;
+    width: 650px;
+    height: 600px;
     border-radius: 50px;
 }
 .goal{
@@ -167,22 +167,22 @@ input[type="tel"]{
     padding-top: 10px;
     padding-bottom: 20px;
 }
-.support{
+/* .support{ */
     /* margin-right:300px ; */
     
-}
+/* } */
 .look{
     margin-right: 70px; 
     
 
 }
-.and{
+/* .and{ */
     /* margin-right: 300px; */
     /* display: flex; */
-}
-.live{
+/* } */
+/* .live{ */
     /* margin-right: 100px; */
-}
+/* } */
 .footer{
     background-color: #2e2933;
 }

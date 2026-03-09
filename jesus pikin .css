@@ -167,22 +167,22 @@ input[type="tel"]{
     padding-top: 10px;
     padding-bottom: 20px;
 }
-.support{
+/* .support{ */
     /* margin-right:300px ; */
     
-}
+/* } */
 .look{
     margin-right: 70px; 
     
 
 }
-.and{
+/* .and{ */
     /* margin-right: 300px; */
     /* display: flex; */
-}
-.live{
+/* } */
+/* .live{ */
     /* margin-right: 100px; */
-}
+/* } */
 .footer{
     background-color: #2e2933;
 }
@@ -198,8 +198,7 @@ input[type="tel"]{
             display: none;
         }
         .collect{
-            display: block;
-            margin-right: 10px;
+            display: block;    margin-right: 10px;
         }
         .form{
             margin-right: 60px;
